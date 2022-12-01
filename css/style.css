@@ -28,7 +28,6 @@ body {
   background-color: white;
   padding: 30px 20px;
   width: 30%;
-  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,6 +67,15 @@ body {
   align-items: center;
   text-align: center;
 }
-.fa-user{ font-size: 30px;
+.fa-user {
+  font-size: 30px;
+}
 
+@media screen and (max-width: 768px) {
+  #cardcontainer {
+    flex-direction: column;
   }
+  #card {
+    width: 100%;
+  }
+}
